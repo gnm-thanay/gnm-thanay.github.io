@@ -1,1 +1,0 @@
-# gnm-thanay.github.io
