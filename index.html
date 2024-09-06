@@ -39,6 +39,8 @@
         <!-- Page Content-->
         <div class="container-fluid p-0">
 
+
+
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
@@ -72,6 +74,9 @@
                         <a class="social-icon" href="assets/doc/Thanay_Murthy_Resume.pdf">
                             <i class="fa-regular fa-file-pdf"></i></a>
                     </div>
+
+                    <br>
+
                 </div>
             </section>
             <hr class="m-0" />
@@ -86,41 +91,83 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Graduate Research Intern</h3>
                             <div class="subheading mb-3">University of Massachusetts at Dartmouth</div>
+
+                            <p><b>Deep Learning for Gravitational Waves Inference</b></p>
                             <ul>
-                                <li>Conducted research on Taems framework for multi-agent systems.</li>
-                                <li>Worked on search algorithms and Artificial Intelligence.</li>
-                                <li>Rewrote modules in Python to reduce space and time complexity using clean and efficient code.</li>
+                                <li>Generation and curation of the training datasets using Python and YAML, of pairs of intrinsic parameters like masses and spins, waveform polarizations, and noise power spectral densities for feature-extraction (SVD)</li>
+                                <li>Read and analyze waveform data, converting HDF5 to numpy array and pandas dataframes, plot using matplotlib</li>
+                                <li>Neural network construction and training to model the Bayesian posterior distribution over the wave parameters</li>
+                                <li>Training involved the simulation of data sets that would mimic the noisy signals of gravitational waves detected by interferometers, and the deep learning model is optimized to infer the parameters from such signals precisely</li>
+                                <li>Used PyTorch for the neural network architecture design and CUDA with Nvidia GPUs for training</li>
+                                <li>Generalize the trained model to real or simulated observational data, using dingo-APIs, to enable fast and accurate inference of the parameters of GWs</li>
+                                <li>Investigate how well the model performs and scales when deployed at the production level on AWS</li>
+                                <li>Created analysis plots using Tableau dashboard, from data stored in MySQL database</li>
+                                <li>Cut the inference time for real world GWs by over 90%</li>
+                            </ul>
+
+                            <p><b>Task Scheduling for Multi-Agent Systems</b></p>
+                            <ul>
+                                <li>Conducted research on TAEMS framework for multi-agent systems, a sophisticated task-scheduling framework to boost agents’ collective intelligence, operational adaptability, and decision-making efficacy in dynamic, uncertain map environments</li>
+                                <li>Worked on different evaluation tests and reinforcement learning algorithms to make the framework robust</li>
+                                <li>Rewrote modules in Python, using clean and efficient code, improving the speed of execution by 10%</li>
                             </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2023 – August 2023</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2023 – August 2024</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Data Engineer</h3>
                             <div class="subheading mb-3">Indegene</div>
+                            <p><b>Project 1: Oncology Product Research</b></p>
                             <ul>
-                                <li>Analyzed EHR and pharmacy claims data for 100+ patients to understand drug effectiveness.</li>
-                                <li>Used Python, SQL, and Tableau visualizations to optimize sales data delivery by 33% on Dataiku and Snowflake.</li>
-                                <li>Developed Tableau dashboards to aid sales in targeting HCP writers, boosting sales by 6%.</li>
-                                <li>Enhanced content origination ETL pipelines, increasing content volume by 18%.</li>
-                                <li>Automated data sourcing to AWS S3 and Athena, reducing process time by 10% with Airflow.</li>
-                                <li>Built sales prediction models for a $60M acquisition in eye care products.</li>
+                                <li>Used ML models to predict physicians for new drugs, boosting prescription rates by 10% through targeted marketing strategies.</li>
+                                <li>Optimized inventory across various locations using data visualizations, leading to a more balanced stock distribution and reducing stock outs by 15%.</li>
+                                <li>Analyzed EHR and pharmacy claims data using Tableau, for over 100 patients to assess drug effectiveness and side effects, providing insights that informed clinical decisions and improved patient outcomes.</li>
+                                <li>Developed and optimized MySQL scripts in Snowflake to generate sales and distribution datasets, reducing data processing time by 13%.</li>
+                                <li>Developed Tableau dashboards to aid the sales team in targeting physicians, resulting in a 6% boost in sales by providing actionable insights and data-driven recommendations.</li>
+                            </ul>
+
+                            <p><b>Project 2: Global Content Origination Analytics</b></p>
+                            <ul>
+                                <li>Streamlined existing ETL pipelines by optimizing workflows, reducing job runtimes by 20%.</li>
+                                <li>Updated data pipelines based on change requests, ensuring they remained aligned with evolving operational changes.</li>
+                                <li>Integrated data from multiple sources into a centralized data warehouse.</li>
+                                <li>Implemented data validation to ensure data accuracy, using DSS DataIku.</li>
+                                <li>Optimized Python & MySQL code within ETL pipeline to ensure faster retrieval by 9%.</li>
+                                <li>Developed analytics dashboards in PowerBI to help increase content generation by 16%.</li>
+                            </ul>
+
+                            <p><b>Project 3: Dry Eye and Punctal Plug Market Research</b></p>
+                            <ul>
+                                <li>Collected and managed large volumes of market data from various sources using AWS S3 for storage.</li>
+                                <li>Automated data extraction tasks with Apache Airflow, reducing manual processing time by 20%.</li>
+                                <li>Used Athena for querying data and preparing datasets.</li>
+                                <li>Performed EDA using SQL, addressing inconsistencies and missing values, resulting in a 10% reduction in errors.</li>
+                                <li>Developed ML predictive models with 90% accuracy in market share forecasts, guiding the successful acquisition of a new product manufacturer.</li>
+                                <li>Analyzed market trends and consumer behavior using Quicksight, identifying a 15% growth opportunity.</li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">January 2022 – July 2022</span></div>
                     </div>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Associate Product Manager</h3>
                             <div class="subheading mb-3">Finflux</div>
                             <ul>
-                                <li>Led a team of 10 using Agile project management approach.</li>
-                                <li>Managed end-to-end product development for 3 key features.</li>
-                                <li>Used customer analytics to cut change requests by 15%.</li>
-                                <li>Improved customer satisfaction by 25% by defining and tracking key metrics using Metabase.</li>
-                                <li>Streamlined internal communication and documentation, reduced employee training times by 50% using Confluence.</li>
-                                <li>Used JIRA to communicate and align key components of upcoming features, bug fixes, and products to internal teams.</li>
-                                <li>Slashed monthly support requests by 30% on Freshdesk.</li>
+                                <li>Led a team of 10 professionals for managing all aspects of the data analytics lifecycle, using Agile & sprint planning.</li>
+                                <li>Proposed analytics tools to enhance data-driven decision-making, effectively communicating these proposals to stakeholders, which led to the adoption of 2 new advanced analytics solutions within the company.</li>
+                                <li>Used Figma and wireframes to effectively communicate product designs to stakeholders, ensuring alignment.</li>
+                                <li>Utilized customer analytics to identify and address pain points, successfully cutting change requests by 15%, leading to more stable product releases.</li>
+                                <li>Defined and tracked key customer metrics using Metabase, which improved customer satisfaction by 25% through data-driven product enhancements.</li>
+                                <li>Streamlined internal communication and documentation processes using Confluence, reducing employee training times by 50%, and improving knowledge sharing across the team.</li>
+                                <li>Implemented improvements on Freshdesk, which led to a 30% reduction in monthly support requests by automating responses and improving self-service options.</li>
+                                <li>Gathered requirements from clients and authored Business Requirement Documents (BRDs), also monitored & reported SLAs, ensuring clear communication of project goals and expectations.</li>
+                                <li>Onboarded 3 new clients to the product platform, providing comprehensive training and support, which facilitated smooth transitions and higher client retention.</li>
+                                <li>Delivered 4 product demos, effectively showcasing product features and value to prospective clients.</li>
+                                <li>Developed and integrated new features such as Bulk Disbursal, Bulk Approval, and Aadhar Vault, enhancing system functionality and compliance.</li>
+                                <li>Worked with cross-functional teams to release new features from conception to deployment, ensuring timely delivery.</li>
+                                <li>Prioritized bugs, features, and tasks for multiple clients using JIRA, which ensured critical issues were addressed promptly.</li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">July 2021 – December 2021</span></div>
@@ -130,14 +177,19 @@
                             <h3 class="mb-0">Data Engineer</h3>
                             <div class="subheading mb-3">Finflux</div>
                             <ul>
-                                <li> Engineered Loan Management System workflows, cutting costs by 14% for clients.</li>
-                                <li> Automated deployments with Jenkins, reducing maintenance by 5%.</li>
-                                <li> Optimized MySQL scripts, boosting backend performance by 25%.</li>
-                                <li> Automated API calls and data transformations with Pentaho, scaling loan services by 10x.</li>
-                                <li> Managed AWS infrastructure, EC2, RDS, and CloudWatch, reducing downtimes by 15% and incident
-                                    response times by 12%.</li>
-                                <li> Modeled data warehouse for 5% loan provisioning and delinquency management using PostgreSQL and AWS Redshift.</li>
-<!--                                 <li> Decreased delinquency rates by 7% for a client using SVM and GBM ML models.</li> -->
+                                <li>Optimized MySQL scripts to enhance backend performance, achieving a 25% increase in query efficiency.</li>
+                                <li>Automated Rest API calls and data transformations with Pentaho, scaling loan service capabilities by 10x.</li>
+                                <li>Managed AWS infrastructure, including EC2, RDS, and CloudWatch, which reduced downtimes by 15% and improved incident response times by 12%.</li>
+                                <li>Managed client onboarding through multi-tenant configuration within MySQL databases, reducing setup costs by 25%.</li>
+                                <li>Worked with Postman APIs testing to implement 3rd party integrations using features like biometrics, geo-location, facial recognition, and payment gateways, expanding system functionality and ensuring compliance.</li>
+                                <li>Automated deployment of web applications using shell scripts, CI/CD pipelines, Jenkins, and Git, and managed AWS IAM resources, which reduced server update downtimes by 30%.</li>
+                                <li>Developed stored procedures and triggers in MySQL as well as data patches to fix issues caused by code bugs, thereby automating events and error corrections, reducing response times by 20%.</li>
+                                <li>Created a data warehouse for scheduled reporting using PostgreSQL and AWS Redshift.</li>
+                                <li>Analyzed Fineract application data to identify root causes of issues, using performance logging on Apache Cassandra, and developed correction plans, reducing issue recurrence by 12% and improving system reliability.</li>
+                                <li>Developed and tested Pentaho reports and created Tableau dashboards, increasing operational visibility.</li>
+                                <li>Developed criteria checks in loan approval workflow stages using Machine Learning on Amazon SageMaker, improving loan processing time by 30% and reducing the delinquency rate by 5%.</li>
+                                <li>Built and managed bulk repayment schedule changes using RESTful APIs and Pentaho Data Integration Tool (Kettle), automating processes and reducing manual intervention by 40%.</li>
+                                <li>Engineered Loan Management System workflows for Loan Origination and Loan Approval, cutting costs by 14%.</li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
